@@ -1,42 +1,5 @@
 
 
-// const fs = require('fs');
-// const express = require('express');
-// const app = express();
-
-// app.use(express.json());
-
-
-
-// app.get("/",(req,res)=>{
-//     fs.readFile("a.txt","utf-8",(err,data)=>{
-//         if(err){
-//             res.send("There was an issue reading the file");
-//         }
-//         res.send(data);
-//     })
-// })
-
-
-// app.post('/',(req,res)=>{
-//     const content=req.body.content;
-//     fs.appendFile("a.txt",content+"\n",(err)=>{
-//         if(err){
-//             return res.status(500).send(`The error is`,err)
-//         }
-//         res.send("Mentioned in File")
-//     });
-// });
-
-
-
-
-// app.listen(3000,()=>{
-//     console.log("Serving on port 3000")
-// });
-
-
-
 
 const express = require('express');
 const app = express();
